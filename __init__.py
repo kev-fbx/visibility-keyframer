@@ -21,7 +21,7 @@ bl_info = {
 }
 
 class VISIBILITY_OT_keyframe_visibility_hide(bpy.types.Operator):
-    "Hide and keyframe the render visibility of selected objects"
+    """Hide and keyframe the render visibility of selected objects"""
     bl_idname = "view3d.keyframe_visibility_hide"
     bl_label = "Hide selected in render"
     bl_options = {'REGISTER', 'UNDO'}
@@ -33,7 +33,7 @@ class VISIBILITY_OT_keyframe_visibility_hide(bpy.types.Operator):
         return {'FINISHED'}
 
 class VISIBILITY_OT_keyframe_visibility_show(bpy.types.Operator):
-    "Show and keyframe the render visibility of selected objects"
+    """Show and keyframe the render visibility of selected objects"""
     bl_idname = "view3d.keyframe_visibility_show"
     bl_label = "Show selected in render"
     bl_options = {'REGISTER', 'UNDO'}
@@ -45,7 +45,7 @@ class VISIBILITY_OT_keyframe_visibility_show(bpy.types.Operator):
         return {'FINISHED'}
 
 class VISIBILITY_PT_keyframe_visibility_ui(bpy.types.Panel):
-    "UI Panel for visibility keyframing"
+    """UI Panel for visibility keyframing"""
     bl_label = "Visibility Keyframer"
     bl_idname = "VISIBILITY_PT_Visibility_Keyframer"
     bl_space_type = "VIEW_3D"
