@@ -15,7 +15,7 @@ bl_info = {
     "author": "kev-fbx",
     "description": "Keyframe the render visibility of selected objects",
     "blender": (3, 6, 0),
-    "version": (0, 0, 1),
+    "version": (1, 0, 0),
     "location": "View3D > Properties > Animation",
     "category": "Animation",
 }
