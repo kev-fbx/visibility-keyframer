@@ -3,3 +3,6 @@ Blender tool to simplify keyframing of selected object(s) render visibility.
 
 # Video Demo
 https://youtu.be/z_ZSgg-rvag
+
+# TO-DO
+- Viewport visilibty toggle option
