@@ -16,7 +16,7 @@ bl_info = {
     "description": "Keyframe the render visibility of selected objects",
     "blender": (3, 6, 0),
     "version": (1, 0, 0),
-    "location": "View3D > Properties > Animation",
+    "location": "3D View > Properties > Animation",
     "category": "Animation",
 }
 
