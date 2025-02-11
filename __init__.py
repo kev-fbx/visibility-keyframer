@@ -58,7 +58,8 @@ class VISIBILITY_PT_keyframe_visibility_ui(bpy.types.Panel):
         row = layout.row()
 
         row = layout.row(align=True)
-        layout.operator("view3d.keyframe_visibility")
+        layout.operator("view3d.keyframe_visibility_show", text="Show in render")
+        layout.operator("view3d.keyframe_visibility_hide", text="Hide in render")
 
 classes = [
     VISIBILITY_OT_keyframe_visibility_hide,
