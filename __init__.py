@@ -24,6 +24,7 @@ class VISIBILITY_OT_keyframe_visibility_hide(bpy.types.Operator):
     """Hide and keyframe the render visibility of selected objects"""
     bl_idname = "view3d.keyframe_visibility_hide"
     bl_label = "Hide selected in render"
+    bl_info = "Hides selected objects in render and keyframes the change"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
@@ -36,6 +37,7 @@ class VISIBILITY_OT_keyframe_visibility_show(bpy.types.Operator):
     """Show and keyframe the render visibility of selected objects"""
     bl_idname = "view3d.keyframe_visibility_show"
     bl_label = "Show selected in render"
+    bl_info = "Shows selected objects in render and keyframes the change"
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
